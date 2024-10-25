@@ -1,0 +1,51 @@
+div.film{
+  display: block;
+  border-bottom: 1px dotted lightgray;
+  margin: 20px;
+}
+img#zdjecie{
+  width: 70px;
+  text-align: left;
+}
+div#lewo,div#srodek,div#premiera,div#czas,div#czas1{
+  display: table-cell;
+  vertical-align:top;
+  margin: auto;
+  padding: 30px;
+  
+}
+p#premiera{
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+div#czas1{
+  background-color: lightgray;
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+p#gatunek{
+  color:rgb(68, 68, 68);
+  font-style:italic ;
+  font-weight: bold;
+}
+h3#tytul{
+  text-transform: uppercase;
+}
+p#studyjny,p#premiera{
+  display: inline-block;
+  margin: 10px;
+}
+p#studyjny{
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  padding:10px;
+}
+p#studyjny:empty,p#premiera:empty{
+  display: none;
+}
